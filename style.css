@@ -208,6 +208,21 @@ footer{
     color:beige;
 }
 
+#formContato{
+
+}
+
+main #imagemEquipe {
+    width:100%;
+    flex-direction:column;
+    align-items:center;
+    gap:16px;
+}
+main #imagemEquipe img{
+    width:50%;
+}
+
+
 .container{
     display:flex;
     justify-content:center;
