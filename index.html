@@ -10,45 +10,96 @@
     <title>exape andre</title>
 </head>
 <body>
-    <header>
-        <h1>Receitas</h1>
+    <header class="container">
+        <h1>HUMMM RECEITAS</h1>
     </header>
-    <nav>
-        <div id="botoesMenu">
-            <a href="">Principal</a>
+
+    <nav class="container">
+        <div id="botoesMenu" class="container">
+            <a href="index.html">Principal</a>
             <a href="./pages/receitas.html">Receitas</a>
             <a href="./pages/sobre.html">Sobre</a>
             <a href="./pages/contato.html">Contato</a>
         </div>
         <input type="search" placeholder="Ex: Estrogonofe de frango...">
     </nav>
-    <main>
-        <section>
-            <article class="card">
-                <img src="./assets/img/imagemBolo.jpg" alt="imagem bolo">
-                <p>Bolo de chocolate</p>
-            </article>
-            <article class="card">
-                <img src="./assets/img/imagemBolo.jpg" alt="imagem bolo">
-                <p>Bolo de chocolate</p>
-            </article>
-            <article class="card">
-                <img src="./assets/img/imagemBolo.jpg" alt="imagem bolo">
-                <p>Bolo de chocolate</p>
-            </article>
+
+    <main class="container">
+        <section id="conteudoPrincipal" class="container">
+
+            <section id="ultimasReceitas" class="container">
+                <h2>Ultimas Receitas</h2>
+                <div class="container">
+                    <article class="card container">
+                        <a class="container" href="./pages/receitas.html">
+                            <img src="./assets/img/imagemBolo.jpg" alt="imagem  bolo">
+                            <p>Bolo de Chocolate</p>
+                        </a>
+                    </article>
+                    <article class="card container">
+                        <a class="container" href="#">
+                            <img src="./assets/img/imagemBolo.jpg" alt="imagem bolo">
+                            <p>Pavê de Morango</p>
+                        </a>
+                    </article>
+                </div>
+            </section>
+            <section id="miniaturas" class="container">
+                <h2>Receitas</h2>
+                <div class="container">
+                    <article class="card container">
+                        <a class="container" href="./pages/receitas.html">
+                            <img src="./assets/img/imagemBolo.jpg" alt="imagem  bolo">
+                            <p>Bolo de Chocolate</p>
+                        </a>
+                    </article>
+                    <article class="card container">
+                        <a class="container" href="">
+                            <img src="./assets/img/imagemBolo.jpg" alt="imagem bolo">
+                            <p>Pavê de Morango</p>
+                        </a>
+                    </article>
+                    <article class="card container">
+                        <a class="container" href="./pages/receitas.html">
+                            <img src="./assets/img/imagemBolo.jpg" alt="imagem  bolo">
+                            <p>Bolo de Chocolate</p>
+                        </a>
+                    </article>
+                    <article class="card container">
+                        <a class="container" href="">
+                            <img src="./assets/img/imagemBolo.jpg" alt="imagem bolo">
+                            <p>Pavê de Morango</p>
+                        </a>
+                    </article>
+                </div>
+            </section>
+
+
+            <!-- <section id="cardsReceitas" class="container">
+                <article class="card card2 container">
+                    <img src="./assets/img/imagemBolo.jpg" alt="imagem bolo">
+                    <p>Bolo de Chocolate</p>
+                </article>
+                <article class="card card2 container">
+                    <img src="./assets/img/imagemBolo.jpg" alt="imagem bolo">
+                    <p>Bolo de Baunilha</p>
+                </article>
+            </section> -->
         </section>
+
         <aside>
-            <div>
-                <img src="./assets/img/perfil.jpg" alt="imagem perfil">
-                <h2></h2>
+            <div class="container">
+                <img id="fotoPerfil" src="./assets/img/perfil.jpg" alt="imagem perfil">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus eveniet odit ex quos consequuntur sunt reprehenderit adipisci asperiores voluptatum pariatur eius recusandae dolor, minus, fugiat dolores. Molestias reiciendis labore laudantium.</p>
             </div>
-            <div>
-                <img src="" alt="">
-                <a href="http://intagram.com">INSTAGRAM</a>
+            <div class="container">
+                <!-- <img id="instaIcon" src="./assets/img/instagramIcon.png" alt=""> -->
+                <a id="instagramButton" href="http://intagram.com" target="_blank">INSTAGRAM</a>
             </div>
         </aside>
     </main>
-    <footer>
+    
+    <footer class="container">
         <p>Desenvolvido por André Ressude</p> 
     </footer>
 

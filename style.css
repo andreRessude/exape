@@ -1,2 +1,215 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
 
+:root{
+    --firstColor: purple;
+    --secondColor: gray;
+    --thirdColor: beige;
+}
+
+body{
+    background-color:beige;
+}
+
+header{
+    width:100%;
+    padding:64px;
+    background-color:var(--firstColor);
+    color:beige;
+    font-family:;
+}
+header h1{
+    font-size: 48px;
+}
+
+nav{
+    gap: 16px;
+    padding:32px;
+}
+nav #botoesMenu{
+    align-itens:center;
+    gap:8px;
+}
+nav #botoesMenu a{
+    border: 2px #000 solid;
+    padding:16px 32px;
+    text-decoration:none;
+    border-radius:8px;
+    transition: transform 0.1s ease-in-out;
+    background-color:var(--firstColor);
+    color:beige;
+}
+nav #botoesMenu a:hover{
+    transform: scale(1.1);
+}
+nav input{
+    width:25%;
+    padding: 8px;
+}
+
+main{
+    padding:64px;
+    width:100%;
+    gap: 32px;
+}
+
+
+main #conteudoPrincipal{
+    width:70%;
+    flex-direction:column;
+    padding:32px;
+    gap: 32px;
+}
+
+main #conteudoPrincipal #ultimasReceitas{
+    flex-direction:column;
+    align-items:center;
+    gap:16px
+}
+main #conteudoPrincipal #ultimasReceitas div{
+    gap:16px;
+}
+
+main #conteudoPrincipal #ultimasReceitas div .card{
+    align-items:center;
+    justify-content:space-around;
+    background-color:var(--firstColor);
+    color:var(--thirdColor);
+    gap:8px;
+    padding:8px;
+    width:300px;
+    height:350px;
+    border-radius:32px;
+}
+main #conteudoPrincipal #ultimasReceitas div .card a{
+    flex-direction:column;
+    justify-content:space-around;
+    gap:8px;
+    align-items:center;
+    text-decoration:none;
+    width:100%;
+    padding:16px;
+    border-radius:32px;
+}
+main #conteudoPrincipal #ultimasReceitas div .card a img{
+    width:100%;
+    border-radius:24px;
+}
+main #conteudoPrincipal #ultimasReceitas div .card a p{
+    font-size:20px;
+    color:var(--thirdColor);
+}
+
+
+
+main #conteudoPrincipal #miniaturas {
+    flex-direction:column;
+    align-items:center;
+    gap:32px
+}
+main #conteudoPrincipal #miniaturas div {
+    gap:16px
+}
+main #conteudoPrincipal #miniaturas div .card{
+    align-items:center;
+    justify-content:space-around;
+    background-color:var(--firstColor);
+    color:var(--thirdColor);
+    gap:8px;
+    /* padding:8px; */
+    width:200px;
+    height:250px;
+    border-radius:16px;
+}
+main #conteudoPrincipal #miniaturas div .card a{
+    flex-direction:column;
+    justify-content:space-around;
+    gap:8px;
+    align-items:center;
+    text-decoration:none;
+    width:100%;
+    padding:16px;
+    border-radius:32px;
+}
+
+main #conteudoPrincipal #miniaturas div .card a img{
+    width:100%;
+    border-radius:24px;
+}
+main #conteudoPrincipal #miniaturas div .card a p{
+    font-size:16px;
+    color:var(--thirdColor);
+}
+
+
+
+main #conteudoPrincipal #cardsReceitas{
+    flex-direction:row;
+    gap:16px;
+    border: 2px solid #000;
+    padding:16px;
+    
+}
+
+main #conteudoPrincipal #cardsReceitas .card{
+    padding:16px;
+    width:100px;
+    border-radius:16px;
+    border: 2px solid #000;
+    gap: 8px;
+}
+
+main #conteudoPrincipal #cardsReceitas .card img{
+    border: 2px solid #000;
+}
+
+main aside{
+    display:flex;
+    padding:32px;
+    width:30%;
+    flex-direction:column;
+    gap:64px;
+    background-color: var(--firstColor);
+    
+    border: 2px solid #000;
+}
+
+main aside div{
+    flex-direction:row;
+    gap:16px;
+    align-items:center;
+}
+main aside div #fotoPerfil{
+    width:40%;
+    border-radius:100%;
+    border: 2px solid #000;
+}
+main aside div p{
+    color:beige;
+}
+main aside #instagramButton{
+    background-color:beige;
+    color:var(--firstColor);
+    padding: 16px;
+    border-radius:16px;
+    text-decoration:none;
+    transition: tranform 0.1s ease-in-out;
+}
+main aside #instagramButton:hover{
+    transform:scale(1.1);
+}
+
+footer{
+    padding:32px;
+    background-color:var(--firstColor);
+    color:beige;
+}
+
+.container{
+    display:flex;
+    justify-content:center;
+}
   
